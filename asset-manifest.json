@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.60263e1b.css",
-    "main.js": "/static/js/main.f3f7477c.js",
-    "static/js/787.155c0dcc.chunk.js": "/static/js/787.155c0dcc.chunk.js",
-    "static/media/video.MOV": "/static/media/video.84a18d0cdda80e56bc19.MOV",
-    "static/media/logo-insta.png": "/static/media/logo-insta.f3cf060e695341e40d09.png",
-    "static/media/AIR_JORDAN_XXXI_4.jpeg": "/static/media/AIR_JORDAN_XXXI_4.0a6cff34a9d1b525f4ed.jpeg",
-    "static/media/5.jpeg": "/static/media/5.bf9c470c860ffcdeddea.jpeg",
-    "static/media/AIR_JORDAN_XXXI_2.jpeg": "/static/media/AIR_JORDAN_XXXI_2.78615b230efa72e6f562.jpeg",
-    "static/media/AIR_JORDAN_XXXI_3.jpeg": "/static/media/AIR_JORDAN_XXXI_3.e15cb0648ebfd828cc16.jpeg",
-    "static/media/1.jpeg": "/static/media/1.f8b7dcb7df0740989a37.jpeg",
-    "static/media/2.jpeg": "/static/media/2.78e53251ff1908397779.jpeg",
-    "static/media/3.jpeg": "/static/media/3.c0db70c6a196b5f31fd2.jpeg",
-    "static/media/4.jpeg": "/static/media/4.020465ed510ac1094669.jpeg",
-    "static/media/size.png": "/static/media/size.ab96963c0d8da2e0ac82.png",
-    "index.html": "/index.html",
-    "main.60263e1b.css.map": "/static/css/main.60263e1b.css.map",
-    "main.f3f7477c.js.map": "/static/js/main.f3f7477c.js.map",
-    "787.155c0dcc.chunk.js.map": "/static/js/787.155c0dcc.chunk.js.map"
+    "main.css": "/top-crock-landing-/static/css/main.60263e1b.css",
+    "main.js": "/top-crock-landing-/static/js/main.96760401.js",
+    "static/js/787.155c0dcc.chunk.js": "/top-crock-landing-/static/js/787.155c0dcc.chunk.js",
+    "static/media/video.MOV": "/top-crock-landing-/static/media/video.84a18d0cdda80e56bc19.MOV",
+    "static/media/logo-insta.png": "/top-crock-landing-/static/media/logo-insta.f3cf060e695341e40d09.png",
+    "static/media/AIR_JORDAN_XXXI_4.jpeg": "/top-crock-landing-/static/media/AIR_JORDAN_XXXI_4.0a6cff34a9d1b525f4ed.jpeg",
+    "static/media/5.jpeg": "/top-crock-landing-/static/media/5.bf9c470c860ffcdeddea.jpeg",
+    "static/media/AIR_JORDAN_XXXI_2.jpeg": "/top-crock-landing-/static/media/AIR_JORDAN_XXXI_2.78615b230efa72e6f562.jpeg",
+    "static/media/AIR_JORDAN_XXXI_3.jpeg": "/top-crock-landing-/static/media/AIR_JORDAN_XXXI_3.e15cb0648ebfd828cc16.jpeg",
+    "static/media/1.jpeg": "/top-crock-landing-/static/media/1.f8b7dcb7df0740989a37.jpeg",
+    "static/media/2.jpeg": "/top-crock-landing-/static/media/2.78e53251ff1908397779.jpeg",
+    "static/media/3.jpeg": "/top-crock-landing-/static/media/3.c0db70c6a196b5f31fd2.jpeg",
+    "static/media/4.jpeg": "/top-crock-landing-/static/media/4.020465ed510ac1094669.jpeg",
+    "static/media/size.png": "/top-crock-landing-/static/media/size.ab96963c0d8da2e0ac82.png",
+    "index.html": "/top-crock-landing-/index.html",
+    "main.60263e1b.css.map": "/top-crock-landing-/static/css/main.60263e1b.css.map",
+    "main.96760401.js.map": "/top-crock-landing-/static/js/main.96760401.js.map",
+    "787.155c0dcc.chunk.js.map": "/top-crock-landing-/static/js/787.155c0dcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60263e1b.css",
-    "static/js/main.f3f7477c.js"
+    "static/js/main.96760401.js"
   ]
 }
