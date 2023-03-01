@@ -1,0 +1,16 @@
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 600px;
+    
+    
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .swiper-slide {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

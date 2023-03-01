@@ -1,0 +1,102 @@
+.title {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+
+    @media (max-width: 768px) {
+        font-size: 28px;
+        line-height: 30px;
+
+    }
+
+}
+
+
+
+.timer_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+
+.timer {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media(max-width: 768px) {
+        height: 50px;
+        width: 100%;
+    }
+}
+
+
+.number {
+    max-width: 100px;
+    margin-right: 4px;
+    font-size: 40px;
+    line-height: 68px;
+    color: #0c0c0c;
+    letter-spacing: 10px;
+    position: relative;
+    font-weight: 600;
+
+    @media(max-width: 768px) {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    @media (max-width: 418px) {
+        font-size: 30px;
+        line-height: 38px;
+
+    }
+}
+
+
+
+.timer li+li:before {
+    height: 70px;
+    display: block;
+    font-size: 60px;
+    line-height: 58px;
+    content: ':';
+    position: absolute;
+    left: -24px;
+    top: 1;
+
+    @media(max-width: 768px) {
+        font-size: 40px;
+        line-height: 44px;
+
+    }
+
+    @media (max-width: 418px) {
+        font-size: 30px;
+        line-height: 34px;
+
+    }
+}
+
+
+.text {
+    font-size: 16px;
+    color: #888;
+    max-width: 50px;
+}
+
+.timer li+li {
+    margin-left: 10px;
+}
