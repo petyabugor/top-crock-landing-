@@ -32,7 +32,7 @@
 }
 
 .logo {
-    font-size: 38px;
+    font-size: 37px;
     color: #8f8d8d;
 }
 
@@ -40,7 +40,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    @media(max-width: 500px){
+
+    @media(max-width: 500px) {
         display: none;
     }
 }
