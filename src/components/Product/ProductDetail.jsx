@@ -12,7 +12,7 @@ import Video from '../Video/Video';
 import PriceAnime from '../PriceAnime/PriceAnime';
 
 function ProductDetail() {
-   const characteristic = ['Китай', 'Шкіра', 'пваппа', 'прапрпр'];
+   const characteristic = ['Китай', 'Шкіра', 'Весна, літо', 'Q3547'];
    const [activeSizes, setActiveSizes] = useState(0);
 
    useEffect(() => {
