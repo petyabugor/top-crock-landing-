@@ -35,28 +35,26 @@ function ProductDetail() {
                <div className={style.video_wrap}>
                   <PriceAnime />
                   <div className={style.price2}>
-                        <del>
-                           <span className={style.amount}>2750 грн</span>
-                        </del>
-                        <ins>
-                           <span className={style.amount2}>
-                              2400
-                              <b>грн</b>{' '}
-                           </span>
-                        </ins>
-                     </div>
-                  <Video />
+                     <del>
+                        <span className={style.amount}>2750 грн</span>
+                     </del>
+                     <ins>
+                        <span className={style.amount2}>
+                           2400
+                           <b>грн</b>{' '}
+                        </span>
+                     </ins>
+                  </div>
+                  <h4 className={style.timer_title}>До кінця акціїї залишилось</h4>
+                  <Timer />
+                  <Swipper2 />
                   <h4 className={style.title_feature}>Яскраве доповнення Вашого образу</h4>
                </div>
                <div className={style.top}>
                   <div className={style.left}>
-                     <Swipper2 />
+                     <Video />
                   </div>
-                  <div
-                     data-aos="zoom-in"
-                     data-aos-duration="2000"
-                     className={style.right}
-                  >
+                  <div className={style.right}>
                      <div className={style.title}>Adidas Ozelia Originals Black Purple</div>
                      <div className={style.price2}>
                         <del>

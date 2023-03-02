@@ -15,7 +15,12 @@
         width: 400px;
         height: 180px;
     }
-    
+} 
+@media (max-width: 450px){
+    .card{
+        width: 350px;
+        height: 180px;
+    }
 } 
 
 
@@ -45,6 +50,15 @@ h1 span {
         font-size: 38px;
     }
     
+} 
+@media (max-width: 450px){
+	h1{
+        top: 30px;
+	    left: 28px;
+    }
+    h1 span{
+		font-size: 30px;
+    }
 } 
 
 h1 span:nth-child(2) {
@@ -102,6 +116,13 @@ h1 span:nth-child(12) {
     .text{
         top: 90px;
 	    left: 70px;
+    }
+    
+} 
+@media (max-width: 450px){
+    .text{
+        top: 90px;
+	    left: 50px;
     }
     
 } 
