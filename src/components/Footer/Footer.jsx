@@ -17,16 +17,18 @@ function Footer() {
             </div>
             <div className={style.right}>
                {' '}
-               Наш інстаграм
+               <p className={style.insta_text}> top_krock</p>
                <a
                   href="https://www.instagram.com/top_krock/"
                   target="_blank"
                >
-                  {' '}
-                  <img
-                     src={inst}
-                     alt=""
-                  />
+                  <div className={style.inst}>
+                     <img
+                        
+                        src={inst}
+                        alt="insta"
+                     />
+                  </div>
                </a>
             </div>
          </div>

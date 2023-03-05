@@ -14,7 +14,6 @@ function Video() {
             ref={ vidRef }
             src={videofon}
             autoPlay
-            playsinline
             controls
             lop
             muted

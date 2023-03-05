@@ -8,11 +8,13 @@
     padding-top: 150px;
     max-width: 1400px;
     margin: 0 auto;
-    padding-left: 5px;
-    padding-right: 5px;
 
     @media (max-width: 768px) {
         padding-top: 120px;
+    }
+
+    @media (max-width: 500px) {
+        padding-top: 90px;
     }
 
 }
@@ -55,7 +57,7 @@
     }
 
     @media(max-width:768px) {
-        padding-left: 5px;
+        padding: 5px;
         width: 100%;
         align-items: center;
     }
@@ -84,24 +86,42 @@
 
 .feature_title {
     text-align: center;
+
 }
 
 .title_feature {
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     font-size: 48px;
     line-height: 50px;
     text-align: center;
-    padding-bottom: 5px;
-    text-shadow: 1px 2px 5px #333;
+    text-shadow: 1px 2px 3px #333;
     margin-top: 30px;
+    padding: 5px;
 
     @media (max-width: 768px) {
         font-size: 28px;
         line-height: 30px;
         text-align: center;
 
+    }
+}
+
+.title_insta {
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: #969494;
+
+    @media (max-width: 768px) {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
     }
 }
 
@@ -515,4 +535,65 @@
     img {
         width: 100%;
     }
+}
+
+.arrow_down {
+    margin: 30px;
+}
+
+.arrow_down span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #4b4c4d;
+    border-right: 5px solid #4b4c4d;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow_down 2s infinite;
+}
+
+.arrow_down span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow_down span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes arrow_down {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.inst {
+    max-width: 200px;
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.1)
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+.insta_text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
 }

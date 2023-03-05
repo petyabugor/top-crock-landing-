@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Swipper2 from '../Swipper2/Swipper2';
-/* import Skeleton from '../../components/common/Product/skeleton'; */
 import style from './Product.module.scss';
 import Timer from '../Timer/Timer';
 import Aos from 'aos';
@@ -9,11 +8,10 @@ import Footer from '../Footer/Footer';
 import size from '../../assets/img/size.png';
 import Forma from '../Form/Form';
 import Video from '../Video/Video';
-import PriceAnime from '../PriceAnime/PriceAnime';
+import inst from '../../assets/img/icons/insta.png';
 
 function ProductDetail() {
    const characteristic = ['Китай', 'Шкіра', 'Весна, літо', 'Q3547'];
-   const [activeSizes, setActiveSizes] = useState(0);
 
    useEffect(() => {
       window.scrollTo(0, 0);
@@ -28,12 +26,12 @@ function ProductDetail() {
    return (
       <>
          <div className={style.wrapper}>
-            {/* {isLoading === 'loading' ? (
-               [...new Array(12)].map((_, index) => <Skeleton key={index} />)
-            ) : ( */}
             <div className={style.content}>
                <div className={style.video_wrap}>
-                  <PriceAnime />
+                  <div className={style.title_feature}>
+                     {' '}
+                     Топова модель <br /> <b>Adidas Ozelia Originals Black Purple</b>
+                  </div>
                   <div className={style.price2}>
                      <del>
                         <span className={style.amount}>2750 грн</span>
@@ -96,8 +94,8 @@ function ProductDetail() {
                               <p>Артикул</p>
                            </div>
                            <div className={style.feature_text2}>
-                              {characteristic.map((val) => (
-                                 <p>{val}</p>
+                              {characteristic.map((val, i) => (
+                                 <p key={i}>{val}</p>
                               ))}
                            </div>
                         </div>
@@ -126,7 +124,7 @@ function ProductDetail() {
                         <h3 className={style.description_title}>Оплата</h3>
                         <p className={style.description_text}>
                            Оплата при отриманні / післяоплата (можлива при мінімальній передоплаті у
-                           розмірі 100 грн).
+                           розмірі 150 грн).
                         </p>
                      </div>
                      <div
@@ -157,9 +155,32 @@ function ProductDetail() {
                   <h4 className={style.timer_title}>До кінця акціїї залишилось</h4>
                   <Timer />
                   <Forma ref={ref} />
+                  <div className={style.title_insta}>
+                     {' '}
+                     Інші Топові моделі <br /> в нашому Instagram
+                  </div>
+                  <div className={style.arrow_down}>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div>
+                     {' '}
+                     <p className={style.insta_text}> top_krock</p>
+                     <a
+                        href="https://www.instagram.com/top_krock/"
+                        target="_blank"
+                     >
+                        <div className={style.inst}>
+                           <img
+                              src={inst}
+                              alt="insta"
+                           />
+                        </div>
+                     </a>
+                  </div>
                </div>
             </div>
-            {/* )} */}
          </div>
          <Footer />
       </>

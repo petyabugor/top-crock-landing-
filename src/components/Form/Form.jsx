@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import Popup from '../Popup/Popup';
 
-function Form({},ref) {
+function Form({}, ref) {
    const [open, setOpen] = useState(false);
    const form = useRef();
 
@@ -17,7 +17,6 @@ function Form({},ref) {
                setOpen(true);
 
                console.log(result.text);
-              
             },
             (error) => {
                console.log(error.text);
@@ -44,7 +43,10 @@ function Form({},ref) {
    }
    return (
       <>
-         <div ref={ref} className="login-wrapper">
+         <div
+            ref={ref}
+            className="login-wrapper"
+         >
             <div className="login-box">
                <h2>ЗАЛИШІТЬ ЗАЯВКУ</h2>
                <p>та отримайте консультацію</p>
@@ -70,6 +72,15 @@ function Form({},ref) {
                         placeholder="Контактний телефон"
                      />
                   </div>
+                  <div className="user-box">
+                     <textarea
+                        onChange={handleChange}
+                        minLength={9}
+                        type="tel"
+                        name="message"
+                        placeholder="Коментар / питання"
+                     />
+                  </div>
 
                   <button
                      disabled={disable}
@@ -91,4 +102,4 @@ function Form({},ref) {
    );
 }
 
-export default forwardRef(Form) ;
+export default forwardRef(Form);

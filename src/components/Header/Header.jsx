@@ -15,11 +15,16 @@ function Header() {
                </div>
             </div>
             <div className="header__insta">
-               {' '}
-               <img
-                  src={insta}
-                  alt=""
-               />
+               <a
+                  href="https://www.instagram.com/top_krock/"
+                  target="_blank"
+               >
+                  {' '}
+                  <img
+                     src={insta}
+                     alt=""
+                  />
+               </a>
             </div>
          </div>
       </div>

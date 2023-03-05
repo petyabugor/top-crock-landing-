@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    
+    margin-bottom: 20px;
     
 }
 @media (max-width: 768px){
@@ -44,7 +44,7 @@
     position: relative;
   }
   
-  .login-box .user-box input {
+  .login-box .user-box input  {
     width: 100%;
     padding: 10px 10px;
     font-size: 16px;
@@ -55,6 +55,19 @@
     outline: none;
     background: transparent;
   }
+  .login-box .user-box textarea  {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border: 1px solid #d1d0d0;
+    outline: none;
+    background: transparent;
+  }
+
+
   .login-box .user-box label {
     
     
