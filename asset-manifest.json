@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/top-crock-landing-/static/css/main.603af862.css",
-    "main.js": "/top-crock-landing-/static/js/main.95e8b84c.js",
+    "main.css": "/top-crock-landing-/static/css/main.de6d4bb6.css",
+    "main.js": "/top-crock-landing-/static/js/main.ce2b7013.js",
     "static/js/787.155c0dcc.chunk.js": "/top-crock-landing-/static/js/787.155c0dcc.chunk.js",
     "static/media/video.MOV": "/top-crock-landing-/static/media/video.84a18d0cdda80e56bc19.MOV",
     "static/media/logo-insta.png": "/top-crock-landing-/static/media/logo-insta.f3cf060e695341e40d09.png",
@@ -16,12 +16,12 @@
     "static/media/4.jpeg": "/top-crock-landing-/static/media/4.020465ed510ac1094669.jpeg",
     "static/media/size.png": "/top-crock-landing-/static/media/size.ab96963c0d8da2e0ac82.png",
     "index.html": "/top-crock-landing-/index.html",
-    "main.603af862.css.map": "/top-crock-landing-/static/css/main.603af862.css.map",
-    "main.95e8b84c.js.map": "/top-crock-landing-/static/js/main.95e8b84c.js.map",
+    "main.de6d4bb6.css.map": "/top-crock-landing-/static/css/main.de6d4bb6.css.map",
+    "main.ce2b7013.js.map": "/top-crock-landing-/static/js/main.ce2b7013.js.map",
     "787.155c0dcc.chunk.js.map": "/top-crock-landing-/static/js/787.155c0dcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.603af862.css",
-    "static/js/main.95e8b84c.js"
+    "static/css/main.de6d4bb6.css",
+    "static/js/main.ce2b7013.js"
   ]
 }
